@@ -1,81 +1,82 @@
 .projects-wrapper {
-    inset: 0;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    gap: 3rem;
+  inset: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
 }
 
 .project-item {
-    display: flex;
-    flex-direction: column;
-    width: 360px;
-    height: 500px;
-    background-color: rgb(21 16 48);
-    padding: 20px;
-    border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 500px;
+  background-color: rgb(21 16 48);
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .project-item h3 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .project-image {
-    height: 230px;
-    width: 100%;
-    box-sizing: border-box;
+  height: 230px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .project-image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .project-description {
-    font-size: 16px;
-    color: rgb(170 166 195);
+  height: 65px;
+  font-size: 16px;
+  color: rgb(170 166 195);
 }
 
 .tags {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
 }
 
 .code-button {
-    padding: 5px 10px;
-    outline: none;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    border-radius: 5px;
-    color: #ffffff;
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+  padding: 5px 10px;
+  outline: none;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
 }
 
 .code-button.enabled {
-    background-color: transparent;
-    cursor: pointer;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .code-button.enabled:hover {
-    background-color: #96c9ff;
-    color: #ffffff;
+  background-color: #96c9ff;
+  color: #ffffff;
 }
 
 .code-button.disabled {
-    background-color: #cccccc;
-    cursor: not-allowed;
+  background-color: #cccccc;
+  cursor: not-allowed;
 }
 
 .github-icon {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }

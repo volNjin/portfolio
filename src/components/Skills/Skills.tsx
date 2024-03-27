@@ -1,3 +1,4 @@
+import React from "react";
 import { frontendSkills, backendSkills, toolSkills } from "../../constants";
 import "./Skills.css";
 import { motion } from "framer-motion";

@@ -1,46 +1,46 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .text-container {
-    text-align: justify;
-    padding: 1.5rem;
-    width: 100%;
-    max-width: 800px;
-    font-size: 24px;
+  text-align: justify;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+  font-size: 24px;
 }
 
 .info-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 100%;
-    max-width: 800px;
-    gap: 10px;
-    margin-top: 14px;
-    font-size: 16px;
-    color: #b9b9b9;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 800px;
+  gap: 10px;
+  margin-top: 14px;
+  font-size: 16px;
+  color: #b9b9b9;
 }
 
 .info-column {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    height: 100%;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  height: 100%;
+  text-align: left;
 }
 
 .info-item {
-    border-bottom: 1px solid #333333;
-    padding: 10px 0;
-    width: 100%;
+  border-bottom: 1px solid #333333;
+  padding: 10px 0;
+  width: 100%;
 }
 
 .info-item span {
-    font-weight: 500;
-    color: #ffffff;
+  font-weight: 500;
+  color: #ffffff;
 }

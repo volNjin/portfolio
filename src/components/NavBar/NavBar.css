@@ -1,37 +1,36 @@
 .fixedBackdrop {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 50;
-    backdrop-filter: blur(20px);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  backdrop-filter: blur(20px);
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navLinks {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
 }
 
 .link-btn {
-    padding: 0.75rem 1.5rem;
-    border-radius: 9999px;
-    border: 1px solid;
-    cursor: pointer;
-    text-decoration: none;
-    color: #959595;
-    user-select: none;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #959595;
+  user-select: none;
 }
 
 .link-btn:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .active {
-    color: #fff;
+  color: #fff;
 }

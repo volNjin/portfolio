@@ -1,3 +1,4 @@
+import React from "react";
 import { basicInfo, education } from "../../constants";
 import "./About.css";
 import { motion } from "framer-motion";
@@ -12,11 +13,11 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.7 }}
         >
-          I'm a student at Hanoi University of Science and Technology (HUST) and
-          a software developer with experience in JavaScript, and expertise in
-          frameworks like React and Node.js. I'm a quick learner and always
-          eager to improve my skills to build efficient, scalable, and
-          user-friendly websites that solve real-world problems!
+          I&apos;m a student at Hanoi University of Science and Technology
+          (HUST) and a software developer with experience in JavaScript, and
+          expertise in frameworks like React and Node.js. I&apos;m a quick
+          learner and always eager to improve my skills to build efficient,
+          scalable, and user-friendly websites that solve real-world problems!
         </motion.p>
       </div>
       <div className="info-container">

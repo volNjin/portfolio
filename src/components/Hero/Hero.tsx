@@ -1,3 +1,4 @@
+import React from "react";
 import { cv, hieu } from "../../assets";
 import "./Hero.css";
 import { motion } from "framer-motion";
@@ -13,7 +14,7 @@ const Hero = () => {
             transition={{ delay: 0.3, duration: 0.5 }}
             className="title"
           >
-            Hi, I'm <span className="subtitle">HIEU</span>
+            Hi, I&apos;m <span className="subtitle">HIEU</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}

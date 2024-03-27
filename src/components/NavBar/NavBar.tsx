@@ -1,3 +1,4 @@
+import React from "react";
 import { navLinks } from "../../constants";
 import { useState } from "react";
 import "./NavBar.css";

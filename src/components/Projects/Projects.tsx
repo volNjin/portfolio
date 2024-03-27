@@ -1,3 +1,4 @@
+import React from "react";
 import { projects } from "../../constants";
 import { github } from "../../assets";
 import "./Projects.css";
@@ -24,7 +25,9 @@ const Projects = () => {
             </div>
             <div className="project-info">
               <h3>{project.name}</h3>
-              <span className="project-description">{project.description}</span>
+              <div className="project-description">
+                <p>{project.description}</p>
+              </div>
             </div>
             <div className="tags">
               {project.tags.map((tag: Tag) => (
