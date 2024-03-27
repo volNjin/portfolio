@@ -41,16 +41,19 @@
   color: #fff;
   font-size: 30px;
 }
+
 .btns {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .btn {
   text-decoration: none;
-  background-color: #574e6c;
-  color: #fff;
+  background-color: rgb(170 166 195);
+  color: rgb(21 16 48);
+  font-weight: 800;
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 5px;
@@ -60,6 +63,7 @@
 
 .btn:hover {
   background-color: #00205b;
+  color: #fff;
 }
 
 .image {
